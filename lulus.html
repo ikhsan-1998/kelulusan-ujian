@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kelulusan ujian</title>
+    </head>
+    <body>
+        <h2>Cek status kelulusan ujian RPL</h2>
+
+        <script>
+            let nilaiTeori =prompt("MAsukkan nilai teori:");
+            let nilaiPraktik = prompt("Masukkan nilai praktik:");
+             document.write("Nilai Teori: "+nilaiTeori+"<br>");         
+            document.write("NIlai praktik: "+nilaiPraktik+"<br>");
+
+            if(nilaiPraktik >= 75 && nilaiTeori >= 75){
+                document.write("Selamat, Anda lulus!");
+            } else {
+                document.write("Mohon maaf anda belum lulus syarat SIM C");
+            }
+        </script>
+    </body>
+</html>
